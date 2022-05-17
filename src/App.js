@@ -1,4 +1,3 @@
-
 import './App.css';
 import NavigationBar from './components/Navigationbar';
 import Intro from './components/Intro';
@@ -9,18 +8,20 @@ import "./style/landingPage.css"
 function App() {
     return ( 
         <div>
-            <div className="myBG border">
-                <NavigationBar />
-                <Intro/>
-            </div>
 
-            <div className="trending">
-                <Trending/>
-            </div>
+        <div className = "myBG border" >
+        <NavigationBar / >
+        <Intro / >
+        </div>
 
-            <div className="superhero">
-                <SuperHero/>
-            </div>
+        <div className = "trending" >
+        <Trending / >
+        </div>
+
+        <div className = "superhero" >
+        <SuperHero / >
+        </div> 
+        
         </div>
     );
 }
